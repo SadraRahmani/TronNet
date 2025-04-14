@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Authors>stoway</Authors>
-    <Version>0.2.0</Version>
-    <PackageProjectUrl>https://github.com/stoway/TronNet</PackageProjectUrl>
+    <PackageId>TronNet</PackageId>
+    <Authors>Sadra Rahmani</Authors>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/SadraRahmani/TronNet</PackageProjectUrl>
     <PackageTags>tron, tron protocol, tron grpc</PackageTags>
     <Company>stoway.net</Company>
     <Description>TronNet is a SDK that includes libraries for working with TRON.
