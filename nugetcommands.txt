@@ -1,0 +1,12 @@
+# Set your variables here
+$version = "1.1.3"
+$apiKey  = "r4V9nYrG9B2HOvxX2cGuH"
+$source  = "https://nuget.tronado.cloud/v3/index.json"
+$rootPath = "D:\Projects\ZZZTemp\tronnet\src"
+
+# Find all .nupkg files that match the version pattern and exclude test folders
+$packages = Get-ChildItem -Path $rootPath -Recurse -Filter "*.$version.nupkg" |   Where-Object { $_.DirectoryName -notmatch '(?i)test' }
+
+if ($packages.Count -eq 0) {    Write-Host "No packages found for version $version in $rootPath"    exit }
+
+foreach ($pkg in $packages) {          dotnet nuget push $pkg.FullName --source $source --api-key $apiKey   }

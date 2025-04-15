@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Authors>stoway</Authors>
-    <Version>0.2.0</Version>
-    <Company>stoway.net</Company>
+    <Authors>SadraRahmani</Authors>
+    <Version>1.1.3</Version>
+    <Company>SadraRahmani.net</Company>
     <Description>TronNet.ABI</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/stoway/TronNet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/stoway/TronNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SadraRahmani/TronNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SadraRahmani/TronNet</RepositoryUrl>
     <PackageTags>tron, tron protocol, tron grpc</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Version>0.2.0</Version>
-    <Authors>stoway</Authors>
-    <Company>stoway.net</Company>
+    <Version>1.1.3</Version>
+    <Authors>SadraRahmani</Authors>
+    <Company>SadraRahmani.net</Company>
     <Description>TronNet.Crypto</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/stoway/TronNet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/stoway/TronNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SadraRahmani/TronNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SadraRahmani/TronNet</RepositoryUrl>
     <PackageTags>tron, tron protocol, tron grpc</PackageTags>
-    <PackageReleaseNotes>Release notes are at https://github.com/stoway/TronNet/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>Release notes are at https://github.com/SadraRahmani/TronNet/releases</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
