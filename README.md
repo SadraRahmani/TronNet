@@ -1,3 +1,6 @@
+# ❗️This library updated to work with Docker Linux Containers❗️
+All related packages for grpc has been updated to latest version so that libdl.so is no longer required.
+
 # TronNet
 TronNet is a SDK that includes libraries for working with TRON, TronNet makes it easy to build TRON applications with .net.
 
